@@ -1,0 +1,28 @@
+{
+  "name": "codeonly",
+  "description": "Simple command line utilty to strip C/C++ style comments from code, leaving code only",
+  "version": "0.0.1",
+  "author": "Topten Software",
+  "contributors": [
+    {
+      "name": "Brad Robinson",
+      "email": "contact@toptensoftware.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toptensoftware/codeonly-tool"
+  },
+  "license": "Apache-2.0",
+  "bin": {
+    "inkscape-export": "./index.js"
+  },
+  "preferGlobal": true,
+  "keywords": [
+  ],
+  "dependencies": {
+    "glob": "^11.0.0"
+  },
+  "type": "module"
+}
+
